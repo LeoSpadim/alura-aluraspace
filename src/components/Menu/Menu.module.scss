@@ -1,0 +1,44 @@
+@import '../../styles/variables';
+
+.menu{
+    width: 18%;
+
+    &__lista{
+        list-style: none;
+
+        margin: 0;
+        padding-left: 0.5rem;
+
+        height: 276px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    &__item{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        &:first-child{
+            a{
+                font-weight: 700;
+                color: $color-purple;
+            }
+        }
+    }
+
+    img{
+        margin-right: 0.5rem;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 1.125rem;
+        color: $color-text;
+    }
+}
