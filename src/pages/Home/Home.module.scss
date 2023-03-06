@@ -1,14 +1,14 @@
 @import '../../styles/variables';
 
 main{
-    margin: 0 24px;
+    margin: 0 24px 2rem 24px;
 }
 
 .principal{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
     margin-top: 2rem;
 
     &__imagem{
@@ -36,4 +36,13 @@ main{
             font-family: $font-bold;
         }
     }
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    margin-top: 1rem;
+    margin-left: 20%;
 }

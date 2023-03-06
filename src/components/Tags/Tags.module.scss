@@ -1,0 +1,32 @@
+@import '../../styles/variables';
+
+.tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 65vw;
+    font-size: 16px;
+    color: $color-text;
+
+    p{
+        font-size: 1.25rem;
+    }
+
+    &__lista{
+        list-style: none;
+
+        display: flex;
+        width: 380px;
+        padding: 0;
+        justify-content: space-between;
+
+        li{
+            background-color: $tag-color;
+            padding: 6px 10px;
+            border-radius: 8px;
+
+            cursor: pointer;
+        }
+    }
+}

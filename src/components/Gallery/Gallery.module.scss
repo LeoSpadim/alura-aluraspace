@@ -1,0 +1,79 @@
+@import '../../styles/variables';
+
+.galeria{
+    margin-bottom: 2rem;
+
+    h2{
+        color: $color-purple;
+        font-size: 24px;
+    }
+
+    &__cards{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+
+        width: 100%;
+        padding: 0;
+    }
+
+    &__card{
+        background-color: $color-dark-blue;
+        border-radius: 20px;
+
+        height: 280px;
+        width: 285px;
+
+        margin: 0 1rem 1.35rem 0;
+
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.5) 0px 25px 50px -12px;
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.025);
+            transition: 0.2s;
+        }
+
+        div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1rem;
+
+            box-sizing: border-box;
+            width: 100%;
+
+            p{
+                margin: .5rem 0 0 0;
+                color: $color-light-grey;
+            }
+            
+            span{
+                width: 20%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                img{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    &__imagem{
+        height: 75%;
+        width: 100%;
+
+        cursor: pointer;
+    }
+
+    &__descricao{
+        margin: 0;
+        padding: 0 16px;
+
+        font-size: 1.25rem;
+        color: $color-text;
+        font-family: $font-bold;
+    }
+}
