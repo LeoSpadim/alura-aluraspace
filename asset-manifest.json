@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alura-aluraspace/static/css/main.05040503.css",
-    "main.js": "/alura-aluraspace/static/js/main.0669fc9f.js",
+    "main.js": "/alura-aluraspace/static/js/main.e10e80cc.js",
     "static/media/banner.png": "/alura-aluraspace/static/media/banner.c4253e7b8c29679753d8.png",
     "static/media/GandhiSans-Bold.otf": "/alura-aluraspace/static/media/GandhiSans-Bold.dec9b9272eebe0777746.otf",
     "static/media/GandhiSans-Regular.otf": "/alura-aluraspace/static/media/GandhiSans-Regular.c2149b5286c581348418.otf",
@@ -11,10 +11,10 @@
     "static/media/facebook.svg": "/alura-aluraspace/static/media/facebook.c895afb0a886aea0ac5f42ea271749e1.svg",
     "index.html": "/alura-aluraspace/index.html",
     "main.05040503.css.map": "/alura-aluraspace/static/css/main.05040503.css.map",
-    "main.0669fc9f.js.map": "/alura-aluraspace/static/js/main.0669fc9f.js.map"
+    "main.e10e80cc.js.map": "/alura-aluraspace/static/js/main.e10e80cc.js.map"
   },
   "entrypoints": [
     "static/css/main.05040503.css",
-    "static/js/main.0669fc9f.js"
+    "static/js/main.e10e80cc.js"
   ]
 }
