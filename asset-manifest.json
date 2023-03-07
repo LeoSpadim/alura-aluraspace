@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/alura-aluraspace/static/css/main.05040503.css",
+    "main.js": "/alura-aluraspace/static/js/main.0669fc9f.js",
+    "static/media/banner.png": "/alura-aluraspace/static/media/banner.c4253e7b8c29679753d8.png",
+    "static/media/GandhiSans-Bold.otf": "/alura-aluraspace/static/media/GandhiSans-Bold.dec9b9272eebe0777746.otf",
+    "static/media/GandhiSans-Regular.otf": "/alura-aluraspace/static/media/GandhiSans-Regular.c2149b5286c581348418.otf",
+    "static/media/logo.svg": "/alura-aluraspace/static/media/logo.b78d9c734f4ea4f5e07b735b0d5d6def.svg",
+    "static/media/instagram.svg": "/alura-aluraspace/static/media/instagram.9fd19e8d7ab576f5b61c888867cf9d93.svg",
+    "static/media/twitter.svg": "/alura-aluraspace/static/media/twitter.ce613670c25a31cc2bc519510f7352b0.svg",
+    "static/media/facebook.svg": "/alura-aluraspace/static/media/facebook.c895afb0a886aea0ac5f42ea271749e1.svg",
+    "index.html": "/alura-aluraspace/index.html",
+    "main.05040503.css.map": "/alura-aluraspace/static/css/main.05040503.css.map",
+    "main.0669fc9f.js.map": "/alura-aluraspace/static/js/main.0669fc9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05040503.css",
+    "static/js/main.0669fc9f.js"
+  ]
+}
