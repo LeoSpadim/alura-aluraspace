@@ -1,12 +1,12 @@
 import styles from './Header.module.scss';
 
-import logo from './assets/logo.png';
+import { ReactComponent as Logo } from './assets/logo.svg';
 import search from './assets/search.png';
 
-export default function Header(){
-    return(
+export default function Header() {
+    return (
         <header className={styles.cabecalho}>
-            <img src={logo} alt="logo Alura Space" />
+            <Logo />
             <div className={styles.cabecalho__container}>
                 <input className={styles.cabecalho__input} type="text" placeholder="O que você procura?" />
                 <img src={search} alt="ícone de busca" />

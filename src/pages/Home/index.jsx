@@ -1,11 +1,11 @@
 import styles from './Home.module.scss';
-
 import banner from './banner.png';
 
 import Header from "../../components/Header";
 import Menu from "../../components/Menu";
 import Footer from '../../components/Footer';
 import Gallery from '../../components/Gallery';
+import Popular from '../../components/Popular';
 
 export default function Home() {
     return (
@@ -21,6 +21,7 @@ export default function Home() {
                 </section>
                 <div className={styles.galeria}>
                     <Gallery />
+                    <Popular />
                 </div>
             </main>
             <Footer />
